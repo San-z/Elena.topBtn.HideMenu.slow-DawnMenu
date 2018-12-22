@@ -4,6 +4,7 @@ body {
 	background: #fff;
 	transition: .3s;
 	opacity: .9;
+
 }
 h1,h2,h3,h4,h5,h6,p{
 	color: #384048;
@@ -86,13 +87,18 @@ a:hover{
 	font-family: 'PT Sans', sans-serif;
 	font-weight: bold;
 }
-
+.active2{
+	transition: .5s;
+	display: block!important;
+}
 #my-menu2 {
-	transition: 1s;
+	transition: .5s;
 	z-index: 198;
 	position: fixed;
+	display: none;
 	top:0;
 }
+
 #my-menu2 ul{
 	width: 100vw;
 	height: 5vh;
@@ -112,6 +118,30 @@ a:hover{
 	color: #000;
 	box-shadow: 0 1px 0 rgba(0,0,0,0.5);
 }
+
+
+/*#modal-1{
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+	border: 2px solid #0ff;
+	border-radius: 10px;
+	padding:1em;
+	align-items: center;
+	display: none;
+	position: absolute;
+	top: 3em;
+	right: 13em;
+	background-color: #fff;
+}
+#modal-1 input{
+	display: block;
+	margin: 1em auto;
+
+}*/
+
+
+
 
 
 .top{

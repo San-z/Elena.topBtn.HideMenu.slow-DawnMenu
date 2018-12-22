@@ -38,10 +38,20 @@ $('document').ready(function(){
 		    var x = $(window).scrollTop();
 
 		    if(x  > 200) {
-		        $('#my-menu2').fadeIn( 500 )
+		        $('#my-menu2').addClass('active2')
 		    }
 		    else{
-		    	$('#my-menu2').fadeOut( 1000 )
+		    	$('#my-menu2').removeClass('active2')
 		    }
 		});
-});
+
+	// ++++++++++++++++ MODAL window +++++++++++++++++
+		// $('#modal-1').hide();
+
+	$('.button-main').click(function(){
+		swal("Here's the title!", "...and here's the text!");
+	});
+
+
+		
+});	
